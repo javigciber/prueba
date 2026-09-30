@@ -1,4 +1,6 @@
 # Autor: Sergio Gómez <sergio@uco.es>
+from HolaMundo import HolaMundo
+
 print("Introduce tu nombre:")
 nombre = input().strip()
-print(f"Hola, {nombre}")
+print(HolaMundo(nombre))
